@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/** box1 **/
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.Logo{
+    background-image: url("../assets/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px transparent;
+
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 23px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**--- box3 --**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(235, 181, 81);
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:  5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{ 
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    border: #febd68;
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+/** box 4 **/
+.nav-flag{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.flag-icon{
+    width: 20px;
+    height: 14px;
+    object-fit: cover;
+}
+
+.flag-text{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.nav-flag i{
+    font-size: 0.7rem;
+}
+/** box 5 **/
+span{
+    font-size: 0.8rem;
+
+}
+.nav-sec{
+    font-family: 0.9rem;
+    font-weight: 700;
+
+}
+/** box 7 **/
+.nav-cart i {
+    font-size: 27px;    
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel  **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-log p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-log {
+    width: 70%;
+    font-size: .85rem;
+
+}
+.panel-detail {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+/** hero section   /**
